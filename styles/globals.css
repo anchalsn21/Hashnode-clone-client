@@ -1,7 +1,10 @@
 html,
 body {
+  background-color: aliceblue;
   padding: 0;
   margin: 0;
+  top: 0;
+  bottom: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -14,3 +17,84 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* Home _Profile Css Starts here  */
+.header__container {
+  width: 100%;
+  height: 140px;
+  padding: 0px 40px 0px 40px;
+  margin-right: auto;
+  margin-right: auto;
+}
+
+.header__row__1 {
+  /*  */
+  display: flex;
+  position: relative;
+  top: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row__1__logo {
+  /*  */
+  width: 300px;
+  height: 50px;
+}
+
+.row__2__options {
+  width: 200px;
+  height: 50px;
+}
+
+.container__header__container {
+  /*  */
+}
+
+.row__1__logo {
+  /*  */
+}
+
+.row__1_options {
+  /*  */
+}
+
+.header__row__2 {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  /* bottom: 50px; */
+  top: 50px;
+}
+
+.menu__navbar ul {
+  list-style-type: none;
+}
+
+.menu__navbar ul li {
+  list-style-type: none;
+  float: left;
+  /* padding: 5px; */
+  margin-right: 10px;
+}
+
+.titlebar__container {
+  background-color: red;
+  width: 100%;
+  height: 160px;
+}
+
+.titlebar__text {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  background-color: pink;
+  padding: 40px;
+  font-size: 25px;
+}
+
+.blog__list__container {
+  background-color: deeppink;
+}
+
+/*  Home Profile Css Ends here */
